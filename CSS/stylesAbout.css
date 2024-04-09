@@ -1,0 +1,44 @@
+.Head{ /*News*/
+    color: rgb(174, 174, 174);
+    background-color: rgb(138, 0, 138);
+    text-align: center;
+    padding: 0px 5px;
+}
+
+.ArtLUS{/*Info*/
+    float: left;
+    text-align: left;
+    color: blue;
+
+    background-color: rgb(149, 0, 146);
+
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.ArtRUS{/*info*/
+    float: right;
+    text-align: right;
+    color: blue;
+
+    background-color: rgb(149, 0, 146);
+
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.ArtUSC{/*INFO*/
+    color: blue;
+    display: inline-block;
+    width: 69%;
+    box-sizing: border-box;
+}
+.ArtUSC h3{
+    text-decoration: underline;
+    display: inline-block;
+}
+.ArtUSC p{
+    display: inline-block;
+}

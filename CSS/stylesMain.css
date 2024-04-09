@@ -1,0 +1,177 @@
+.ArticalLeft img{
+    float: left;
+    width: 50%;
+    height: 500px;
+    opacity: 1;
+}
+
+.ArticalLeft{
+    background-color: rgb(146, 12, 169);
+    color: blue;
+    padding: 5px 10px;
+
+    border: 4px;
+    border-color: rgba(0, 0, 255, 0);
+    border-style: double;
+
+    text-align: center;
+
+    margin-bottom: 10px;
+
+    opacity: 0.6;
+}
+
+p.ArticalLeft{
+    float: left;
+    text-align: center;
+    width: 50%;
+}
+
+.ArticalLeft h3{
+    text-decoration: underline;
+}
+
+.ArticalLeft a{
+    color: blue;
+    text-decoration: none;
+
+    padding: 10px 20px;
+
+    border: 4px;
+    border-style: double;
+    border-color: blue;
+    border-radius: 30px;
+}
+
+.ArticalLeft a:hover{
+    color: rgb(0, 0, 182);
+
+    border-style: double;
+    border-color: rgb(0, 0, 192);
+    border-radius: 30px;
+
+    background-color: rgba(0, 0, 0, 0.386);
+}
+
+.ArticalLeft a:active{
+    color: rgb(0, 0, 123);
+
+    border-style: double;
+    border-color: rgb(0, 0, 125);
+    border-radius: 30px;
+
+    background-color: rgba(0, 0, 0, 0.589);
+}
+
+.ArticalRight{
+    background-color: rgb(146, 12, 169);
+    color: blue;
+    padding: 5px 10px;
+
+    opacity: 0.6;
+
+    border: 4px;
+    border-color: rgba(0, 0, 255, 0);
+    border-style: double;
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.ArticalRight img{
+    float: right;
+    width: 50%;
+    height: 500px;
+    opacity: 1;
+}
+
+p.ArticalRight{
+    float: right;
+    text-align: center;
+    width: 50%;
+}
+
+.ArticalRight h3{
+    text-decoration: underline;
+}
+
+.ArticalRight a{
+    color: blue;
+    text-decoration: none;
+
+    padding: 10px 20px;
+
+    border: 4px;
+    border-style: double;
+    border-color: blue;
+    border-radius: 30px;
+}
+
+.ArticalRight a:hover{
+    color: rgb(0, 0, 182);
+
+    border-style: double;
+    border-color: rgb(0, 0, 192);
+    border-radius: 30px;
+
+    background-color: rgba(0, 0, 0, 0.386);
+}
+
+.ArticalRight a:active{
+    color: rgb(0, 0, 123);
+
+    border-style: double;
+    border-color: rgb(0, 0, 125);
+    border-radius: 30px;
+
+    background-color: rgba(0, 0, 0, 0.589);
+}
+
+.IMGHOME{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.HOMETXT{
+    position: absolute;
+    font-size: 200%;
+
+    color: white;
+
+    left: 28%;
+    bottom: 30%;
+
+    padding: 50px;
+    background-color: rgb(145, 30, 168);
+
+    border: 5px;
+    border-color: rgb(80, 13, 143);
+    border-style: double;
+}
+
+div.N{
+    padding-bottom: 390px;
+}
+
+div.E{
+    padding-bottom: 330px;
+}
+
+div.G{
+    padding-bottom: 470px;
+}
+
+div.C{
+    padding-bottom: 430px;
+}
+
+div.US{
+    padding-bottom: 430px;
+}
+
+div.SU{
+    padding-bottom: 410px;
+}
+

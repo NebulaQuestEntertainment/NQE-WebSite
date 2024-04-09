@@ -1,0 +1,242 @@
+.Head{ /*News*/
+    color: rgb(174, 174, 174);
+    background-color: rgb(138, 0, 138);
+    text-align: center;
+    padding: 0px 5px;
+}
+
+.Head h2{
+    color: rgb(202, 202, 202);
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+    padding-top: 10px;
+}
+
+.Head span{
+    color: rgb(202, 202, 202);
+    
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.TriArt{ /*Y*/
+    border-color: blue;
+    border-style: double;
+    box-sizing: 4px;
+
+    color:rgb(166, 166, 166);
+    font-size: 15px;
+    text-align: center;
+
+    display: inline-block;
+    width: 33%;
+
+    position: relative;
+
+    background-color: rgb(156, 33, 150);
+
+    box-sizing: border-box;
+}
+
+.TriArt:hover{
+    bottom: 7px;
+    opacity: 0.6;
+}
+
+.TriArt p{
+    padding: 10px 0px;
+}
+
+.TriArt h3{ 
+   padding-bottom: 5px;
+}
+
+.TriArt img{ 
+    width: 100%;
+    height: 300px;
+}
+
+.TAHead{ /*C*/
+    text-align: center;
+    color: rgb(137, 137, 145);
+}
+
+a.TABttn{/*B*/
+    color: blue;
+    position: relative;
+
+    text-decoration: none;
+    
+    padding: 5px;
+
+    border: 4px;
+    border-style: double;
+    border-radius: 10px;
+    border-color: blue;
+
+    box-sizing: border-box;
+}
+a.TABttn:hover{
+    color: rgb(0, 0, 203);
+    position: relative;
+    text-decoration: none;
+    
+    padding: 5px;
+
+    border: 4px;
+    border-style: double;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 156);
+
+    background-color: rgba(0, 0, 0, 0.457);
+}
+a.TABttn:active{
+    color: rgb(13, 13, 121);
+    position: relative;
+    text-decoration: none;
+    
+    padding: 5px;
+
+    border: 4px;
+    border-style: double;
+    border-radius: 10px;
+    border-color: rgb(10, 10, 100);
+
+    background-color: black;
+}
+
+.GreatArt{ /*YY*/
+    border-color: blue;
+    border-style: double;
+    box-sizing: 4px;
+
+    color:rgb(166, 166, 166);
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+
+    display: inline-block;
+
+    position: relative;
+
+    background-color: rgb(156, 33, 150);
+
+    box-sizing: border-box;
+}
+
+.GreatArt h3{
+   padding-bottom: 5px;
+}
+
+.GreatArt img{
+    width: 33%;
+    height: 300px;
+
+    border: 4px;
+    border-style: double;
+    border-color: rgba(0, 0, 255, 0);
+    border-radius: 30px;
+
+    box-sizing: border-box;
+}
+
+.MediaIco{/*F*/
+    position: relative;
+}
+
+.MediaIco:hover{
+    bottom: 15px;
+    opacity: 0.6;
+}
+
+input[type=text]{
+    width: 50%;
+    padding: 5px 10px;
+    margin: 8px 16px;
+
+    border: 4px;
+    border-color: rgb(92, 0, 92);
+    border-style: double;
+    border-radius: 4px;
+
+    background-color: purple;
+
+    box-sizing: border-box;
+}
+
+input[type=Email]{
+    width: 25%;
+    padding: 5px 10px;
+    margin: 8px 16px;
+
+    border: 4px;
+    border-color: rgb(92, 0, 92);
+    border-style: double;
+    border-radius: 4px;
+
+    background-color: purple;
+
+    box-sizing: border-box;
+}
+
+input[type=text].Name{
+    width: 23%;
+    padding: 5px 10px;
+    margin: 8px 16px;
+
+    border: 4px;
+    border-color: rgb(92, 0, 92);
+    border-style: double;
+    border-radius: 4px;
+
+    background-color: purple;
+
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 50%;
+    height: 150px;
+    padding: 5px 10px;
+    margin: 8px 16px;
+
+    box-sizing:border-box;
+
+    border: 4px;
+    border-color: rgb(92, 0, 92);
+    border-style: double;
+    border-radius: 4px;
+
+    background-color: purple;
+
+    resize: none;
+}
+
+button, input[type=submit], input[type=reset] {
+    width: 24%;
+    padding: 5px 10px;
+    margin: 8px 16px;
+
+    border: 4px;
+    border-color: rgb(92, 0, 92);
+    border-style: double;
+    border-radius: 4px;
+
+    background-color: purple;
+
+    box-sizing: border-box;
+
+    color: rgb(199, 199, 199);
+
+    
+} 
+
+.I{
+    padding-top: 10px;
+}
+
+.Form{
+    padding-top: 35px;
+}

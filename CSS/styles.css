@@ -8,7 +8,7 @@ header{
     display: inline-block;
     width: 100%;
     background-color: rgb(88, 0, 88);
-    padding: 20px;
+    padding: 5px;
 
     z-index: 2;
 }
@@ -18,36 +18,24 @@ header h1{
     
 }
 
-header h1 a{
-    text-decoration: none;
+.Boder{
+    border-style: double;
+    border-color: blue;
+    border: 4px;
+}
 
-    font-size: 40px;
-    font-family: Rubik Glitch, serif;
-    color: rgb(232, 232, 232);
+.NoBoder{
+    border-style: none;
+}
 
-    text-shadow: 4px 4px rgb(78, 22, 78), 8px 8px 10px rgb(202, 116, 202);
-    
-    padding: 5px 10px;
-
+img.Round{
     border: 4px;
     border-style: double;
-    border-color: white;
-    border-radius: 5px;
-}
-header h1 a:hover{
-    color: rgb(194, 194, 194);
-    border-color: rgb(194, 194, 194);
-}
-header h1 a:active{
-    color: rgb(152, 152, 152);
-    border-color: rgb(152, 152, 152);
-}
+    border-color: rgba(0, 0, 255, 0);
+    border-radius: 30px;
 
-nav{
-    position: sticky;
-    top: 7px;
+    box-sizing: border-box;
 
-    z-index: 1;
 }
 
 nav ul{
@@ -65,7 +53,7 @@ nav ul li {
 
     padding: 6px;
 
-    width: 13%;
+    width: 16.3%;
     box-sizing: border-box;
     white-space: nowrap;
 }
@@ -75,7 +63,6 @@ nav ul li {
 }
 
 nav ul li a{
-
     text-decoration: none;
     color: rgb(237, 237, 237);
 
@@ -103,35 +90,20 @@ nav ul li a:active{
     color: rgb(93, 93, 93);
 }
 
-.News{
-    background-color: rgb(138, 0, 138);
-    text-align: center;
-}
-
-.News h2{
-    color: rgb(202, 202, 202);
-    font-weight: bold;
-    text-align: center;
-    font-size: 25px;
-    text-decoration: underline;
-    padding-top: 10px;
-}
-
-.News span{
-    color: rgb(202, 202, 202);
-    
-    font-size: 15px;
-    text-decoration: none;
-}
-
-.H{
-    padding: 10px;
-}
-
 .Datum{
     padding-left: 20px;
     color: rgb(217, 217, 217);
     font-size: 10px;
+}
+
+img.Image{
+    display: inline-block;
+    width: 50%;
+    height: 500px;
+}
+
+div.NewSet{
+    display: inline-block;
 }
 
 .IMG{
@@ -148,362 +120,28 @@ nav ul li a:active{
     box-sizing: border-box;
 }
 
-.Arti{
-    width: 32.33%;
-    padding: 5px 2px;
-    background-color: rgb(189, 39, 222);
-    display: inline-block;
-
-    color: blue;
-
-    border: 3px;
-    border-style: double;
-
-    position: relative;
-    opacity: 1;
-}
-.Arti:hover{
-    bottom: 10px;
-    opacity: 0.5;
-}
-
-.Arti h3{
-    text-align: center;
-}
-
-.Arti a{
-    color: blue;
-    position: relative;
-    left: 35%;
-    text-decoration: none;
-    
-    padding: 5px;
-
-    border: 4px;
-    border-style: double;
-    border-radius: 10px;
-    border-color: blue;
-}
-.Arti a:hover{
-    color: rgb(0, 0, 203);
-    position: relative;
-    left: 35%;
-    text-decoration: none;
-    
-    padding: 5px;
-
-    border: 4px;
-    border-style: double;
-    border-radius: 10px;
-    border-color: rgb(0, 0, 156);
-
-    background-color: rgba(0, 0, 0, 0.457);
-}
-.Arti a:active{
-    color: rgb(13, 13, 121);
-    position: relative;
-    left: 35%;
-    text-decoration: none;
-    
-    padding: 5px;
-
-    border: 4px;
-    border-style: double;
-    border-radius: 10px;
-    border-color: rgb(10, 10, 100);
-
-    background-color: black;
-}
-
-div.arti{
-    width: 33%;
-    padding: 5px 2px;
-    background-color: rgb(189, 39, 222);
-    display: inline-block;
-
-    color: blue;
-
-    border: 3px;
-    border-style: double;
-
-    position: relative;
-    opacity: 1;
-
-    box-sizing: border-box;
-}
-div.arti:hover{
-    bottom: 10px;
-    opacity: 0.5;
-}
-
-div.arti img{
-    width: 100%;
-    height: 300px;
-}
-
-div.arti h3{
-    text-align: center;
-    padding: 5px 0px;
-    padding-bottom: 10px;
-}
-
-div.arti a{
-    color: blue;
-    position: relative;
-    left: 35%;
-    text-decoration: none;
-    
-    padding: 5px;
-
-    border: 4px;
-    border-style: double;
-    border-radius: 10px;
-    border-color: blue;
-}
-div.arti a:hover{
-    color: rgb(0, 0, 203);
-    position: relative;
-    left: 35%;
-    text-decoration: none;
-    
-    padding: 5px;
-
-    border: 4px;
-    border-style: double;
-    border-radius: 10px;
-    border-color: rgb(0, 0, 156);
-
-    background-color: rgba(0, 0, 0, 0.457);
-}
-div.arti a:active{
-    color: rgb(13, 13, 121);
-    position: relative;
-    left: 35%;
-    text-decoration: none;
-    
-    padding: 5px;
-
-    border: 4px;
-    border-style: double;
-    border-radius: 10px;
-    border-color: rgb(10, 10, 100);
-
-    background-color: black;
-}
-
-.Artical img{
-    float: left;
-    width: 50%;
-    height: 500px;
-}
-
-.Artical{
-    background-color: rgb(146, 12, 169);
-    color: blue;
-    padding: 5px 10px;
-
-    border: 4px;
-    border-color: blue;
-    border-style: double;
-
-    text-align: center;
-}
-
-p.Artical{
-    text-align: center;
-    width: 50%;
-    float: left;
-}
-
-img.Event{
-    position: relative;
-
-    width: 50%;
-    height: 450px;
-}
-
-div.Event1{
-    color: white;
-    position: relative;
-    width: 25%;
-    padding: 0px 5px;
-
-    box-sizing: border-box;
-
-    text-align: center;
-
-    display: inline-block;
-
-    padding-bottom: 8px;
-}
-
-div.Event1 h3{
-    font-size: 30px;
-    background-color: rgb(110, 0, 110);
-    text-align: center;
-    padding: 10px, 5px;
-
-    box-sizing: border-box;
-}
-
-div.Event1 p{
-    padding-bottom: 8px;
-}
-
-div.Event1 a{
-    color: white;
-    border-style: double;
-    border-style: 4px;
-    border-radius: 300px;
-
-    text-decoration: none;
-
-    text-align: center;
-
-    padding: 5px 2px;
-}
-
-div.Event1 a:hover{
-    color: rgb(163, 163, 163);
-    background-color: rgba(0, 0, 0, 0.331);
-}
-
-div.Event1 a:active{
-    color: rgb(82, 82, 82);
-    background-color: rgba(0, 0, 0, 0.664);
-}
-
-img.Event2{
-    position: relative;
-
-    width: 24%;
-    height: 450px;
-}
-
 img.CS{
     width: 100%;
     height: 450px;
 }
 
-.CharInfo{
-    float: left;
-    text-align: left;
-    width: 16.6%;
-    padding: 5px;
-    box-sizing: border-box;
+.IMg{
+    position: relative;
+    width: 70px;
+    height: 70px;
 }
 
-.DarkBrown{
-    color: rgb(56, 27, 0);
-    font-size: 0.6em;
-}
-
-.Ginger{
-    color: rgb(255, 150, 52);
-    font-size: 0.6em;
-}
-
-.LightBlue{
-    color: rgb(128, 222, 251);
-    font-size: 0.6em;
-}
-
-.Purple{
-    color: rgb(82, 0, 72);
-    font-size: 0.6em;
-}
-
-.Gray{
-    color: rgb(154, 154, 154);
-    text-align: center;
-}
-
-.Male{
-    color: rgb(0, 136, 255);
-    font-size: 0.6em;
-}
-
-.Male a{
-    color: rgb(0, 136, 255);
-    text-decoration: none;
-}
-.Male a:hover{
-    color: rgb(0, 91, 170);
-    text-decoration: line-through;
-}
-.Male a:active{
-    color: rgb(0, 63, 118);
-}
-
-.Female{
-    color: rgb(255, 0, 157);
-    font-size: 0.6em;
-}
-
-.Female a{
-    color: rgb(255, 0, 157);
-    text-decoration: none;
-}
-.Female a:hover{
-    color: rgb(171, 1, 105);
-    text-decoration: line-through;
-}
-.Female a:active{
-    color: rgb(147, 0, 91);
-    text-decoration: line-through;
-}
-
-.Human{
-    color: rgb(255, 229, 204);
-    font-size: 0.6em;
-}
-
-.DemiDemon{
-    color: rgb(61, 0, 60);
-    font-size: 0.6em;
-}
-
-.T{
-    font-size: 0.6em;
-}
-
-.Info{
-    float: left;
-    text-align: left;
-    color: blue;
-
-    background-color: rgb(149, 0, 146);
-
-    width: 100%;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-}
-
-
-.info{
-    float: right;
-    text-align: right;
-    color: blue;
-
-    background-color: rgb(149, 0, 146);
-
-    width: 100%;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-}
-
-.INFO{
-    color: blue;
-    display: inline-block;
-    width: 69%;
-    box-sizing: border-box;
-}
-.INFO h3{
-    text-decoration: underline;
+.IMg:hover{
+    bottom: 10px;
+    opacity: 0.6;
 }
 
 body{
-    background-color: purple;
+    background-image: url('Img/NebulaF.jpg');
+}
+
+.CH{
+    background-image: url('Img/NebulaF.jpg');
 }
 
 footer{
@@ -547,3 +185,5 @@ a.PrP:hover{
 a.PrP:active{
     color: rgb(65, 65, 65);
 }
+
+
